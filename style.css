@@ -80,3 +80,9 @@ header h1{
     width: 15px;
     margin-top: 7px;
 }
+.location-input{
+    flex: 1;
+}
+.search-bar form label{
+    font-weight: 600;
+}
