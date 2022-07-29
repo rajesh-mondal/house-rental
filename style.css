@@ -267,4 +267,8 @@ header h1{
         margin: 10px 0;
         display: block;
     }
+    .register-btn{
+        margin: 15px 0 30px;
+        display: inline-block;
+    }
 }
