@@ -31,6 +31,20 @@ nav{
     text-decoration: none;
     color: #fff;
 }
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+}
 .register-btn{
     background: #fff;
     color: #000;
