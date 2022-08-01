@@ -282,4 +282,9 @@ nav .fa-bars{
         color: #fff;
         font-size: 28px;
     }
+    .active::after{
+        left: -40px;
+        transform: translateX(0, 50%);
+        bottom: 50%;
+    }
 }
