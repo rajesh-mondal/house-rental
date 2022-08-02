@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav id="navBar">
             <img src="images/logo.png" class="logo" alt="">
             <ul class="nav-links">
                 <li><a href="#" class="active">Popular Places</a></li>
@@ -20,7 +20,7 @@
                 <li><a href="#">Online Packages</a></li>
             </ul>
             <a href="" class="register-btn">Register Now</a>
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="togglebtn()"></i>
         </nav>
         <div class="container">
             <h1>Find Your Next Stay</h1>
@@ -205,5 +205,13 @@
             </div>
         </div>
     </footer>
+<script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+
+</script>
 </body>
 </html>
