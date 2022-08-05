@@ -293,4 +293,8 @@ nav .fa-bars{
     .hidemenu{
         max-height: 300px;
     }
+    header h1{
+        padding-top: 200px;
+        font-size: 7vw;
+    }
 }
