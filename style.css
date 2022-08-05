@@ -339,4 +339,10 @@ nav .fa-bars{
         margin-top: 10px;
         font-size: 14px;
     }
+    .stories p{
+        font-size: 22px;
+    }
+    .about-message{
+        font-size: 15px;
+    }
 }
