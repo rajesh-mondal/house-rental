@@ -355,3 +355,7 @@ nav .fa-bars{
 .navbar-white .nav-links li a{
     color: #000;
 }
+.navbar-white .register-btn{
+    background: #ff5361;
+    color: #fff;
+}
