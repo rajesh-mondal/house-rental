@@ -346,3 +346,12 @@ nav .fa-bars{
         font-size: 15px;
     }
 }
+
+/* Listing Page */
+.navbar-white{
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.navbar-white .nav-links li a{
+    color: #000;
+}
