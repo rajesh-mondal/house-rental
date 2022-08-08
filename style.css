@@ -365,3 +365,9 @@ nav.navbar-white .fa-bars{
 nav.navbar-white .active::after{
     background: #ff5361;
 }
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
