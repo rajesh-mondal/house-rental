@@ -371,3 +371,9 @@ nav.navbar-white .active::after{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.left-col{
+    flex-basis: 70%;
+}
+.right-col{
+    flex-basis: 25%;
+}
