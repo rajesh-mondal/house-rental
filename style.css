@@ -377,3 +377,8 @@ nav.navbar-white .active::after{
 .right-col{
     flex-basis: 25%;
 }
+.left-col h1{
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
