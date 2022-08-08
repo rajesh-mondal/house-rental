@@ -359,3 +359,9 @@ nav .fa-bars{
     background: #ff5361;
     color: #fff;
 }
+nav.navbar-white .fa-bars{
+    color: #000;
+}
+nav.navbar-white .active::after{
+    background: #ff5361;
+}
