@@ -422,7 +422,7 @@ nav.navbar-white .active::after{
     font-weight: 500;
 }
 .sidebar{
-    border: 1px solid #999;
+    border: 1px solid rgba(153, 153, 153, 0.486);
     padding: 20px 30px;
     margin-top: 30px;
 }
@@ -452,4 +452,26 @@ nav.navbar-white .active::after{
 }
 .sidebar-link a{
     text-decoration: none;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.pagination img{
+    width: 15px;
+    margin: 10px 20px;
+}
+.right-arrow{
+    transform: rotate(180deg);
+}
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
 }
