@@ -446,3 +446,10 @@ nav.navbar-white .active::after{
     margin-right: 15px;
     cursor: pointer;
 }
+.sidebar-link{
+    text-align: right;
+    margin: 20px 0;
+}
+.sidebar-link a{
+    text-decoration: none;
+}
