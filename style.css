@@ -475,3 +475,7 @@ nav.navbar-white .active::after{
     border-radius: 50%;
     cursor: pointer;
 }
+.pagination .current{
+    background: #333;
+    color: #fff;
+}
